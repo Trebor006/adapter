@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mibu.adapter.MediaAdapter</OriginalElement>
+  <nodes>
+    <node x="147.25" y="0.0">com.mibu.adapter.MediaPlayer</node>
+    <node x="207.0" y="388.0">com.mibu.adapter.Mp4Player</node>
+    <node x="224.0" y="103.0">com.mibu.adapter.MediaAdapter</node>
+    <node x="0.0" y="103.0">com.mibu.adapter.AudioPlayer</node>
+    <node x="0.0" y="388.0">com.mibu.adapter.VlcPlayer</node>
+    <node x="103.5" y="285.0">com.mibu.adapter.AdvancedMediaPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mibu.adapter.AudioPlayer" target="com.mibu.adapter.MediaPlayer">
+      <point x="0.0" y="-68.5" />
+      <point x="102.0" y="78.0" />
+      <point x="190.5" y="78.0" />
+      <point x="-43.25" y="26.5" />
+    </edge>
+    <edge source="com.mibu.adapter.Mp4Player" target="com.mibu.adapter.AdvancedMediaPlayer">
+      <point x="0.0" y="-26.5" />
+      <point x="300.5" y="363.0" />
+      <point x="243.75" y="363.0" />
+      <point x="46.75" y="26.5" />
+    </edge>
+    <edge source="com.mibu.adapter.MediaAdapter" target="com.mibu.adapter.MediaPlayer">
+      <point x="0.0" y="-68.5" />
+      <point x="365.5" y="78.0" />
+      <point x="277.0" y="78.0" />
+      <point x="43.25" y="26.5" />
+    </edge>
+    <edge source="com.mibu.adapter.VlcPlayer" target="com.mibu.adapter.AdvancedMediaPlayer">
+      <point x="0.0" y="-26.5" />
+      <point x="93.5" y="363.0" />
+      <point x="150.25" y="363.0" />
+      <point x="-46.75" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.26190476190482" y="207.89285714285717" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
